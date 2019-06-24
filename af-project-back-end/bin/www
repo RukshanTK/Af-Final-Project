@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('af-project-back-end:server');
+var app = require('../index');
+var debug = require('debug')('af-back-end:server');
 var http = require('http');
 
 /**
